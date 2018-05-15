@@ -11,7 +11,7 @@ learning_rate = 0.3
 
 n = nn.neural_network(input_nodes, hidden_nodes, output_nodes, learning_rate)
 
-trainingDataFile = open("C:\\ayush\\HCI\\Deep Learning-AI\\code - ayush\\mnist_dataset\\mnist_train.csv", 'r')
+trainingDataFile = open("mnist_train.csv", 'r')
 trainingDataList = trainingDataFile.readlines()
 trainingDataFile.close()
 
@@ -32,7 +32,7 @@ matplotlib.pyplot.imshow(imageArray, cmap="Greys", interpolation="None")
 
 
 ##################################################################################################
-testDataFile = open("C:\\ayush\\HCI\\Deep Learning-AI\\code - ayush\\mnist_dataset\\mnist_test.csv", 'r')
+testDataFile = open("mnist_test.csv", 'r')
 testDataList = testDataFile.readlines()
 testDataFile.close()
 
